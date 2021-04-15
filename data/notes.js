@@ -1,8 +1,8 @@
 const notesArray = [
     {
-      noteTitle: 'Garbage',
-      noteText: 'Take-Out',
-     
+      noteTitle: 'garbage',
+      noteText: 'take it out',
+      
     },
   ];
   

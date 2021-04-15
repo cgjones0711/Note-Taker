@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // routes for servers to respond
-require("./notesRoute")(app)
+require("./routes/notesRoutes")(app)
 
 // listens for PORT activity
 app.listen(PORT,() => {
