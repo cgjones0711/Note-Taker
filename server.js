@@ -13,6 +13,6 @@ require("./notesRoute")(app)
 
 // listens for PORT activity
 app.listen(PORT,() => {
-    console.log(${PORT});
+    console.log(`App listening on PPORT: ${PORT}`);
     
 })
